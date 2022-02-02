@@ -3,7 +3,7 @@ const mineflayer = require("mineflayer");
 const bot = mineflayer.createBot({
     host: "176.9.32.52", 
     port: 38620,       
-    username: "BotNumberTwo", 
+    username: "Server", 
 });
 
 const antiafk = require("mineflayer-antiafk");
