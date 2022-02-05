@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "mineflayer": "^3.15.0",
-    "mineflayer-antiafk": "github:Etiaro/mineflayer-antiafk"
+    "mineflayer-antiafk": "github:Etiaro/mineflayer-antiafk",
+    "wait-until": "^0.0.2"
   },
   "scripts": {
     "start": "node index.js"

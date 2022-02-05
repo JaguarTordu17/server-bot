@@ -1,4 +1,5 @@
 const mineflayer = require("mineflayer");
+const antiafk = require("mineflayer-antiafk");
 
 var options = {
     host: "176.9.32.52", 
@@ -8,9 +9,7 @@ var options = {
     username: "Server"
 };
 
-const bot = mineflayer.createBot(options);
-
-const antiafk = require("mineflayer-antiafk");
+var bot = mineflayer.createBot(options);
 
 bot.loadPlugin(antiafk);
 
@@ -31,6 +30,7 @@ function bindEvents(bot) {
       console.log("I got kicked for", reason, "lol");
 
       bot = mineflayer.createBot(options);
+      
       bot.loadPlugin(antiafk);
 
       bot.on("spawn", () => {
