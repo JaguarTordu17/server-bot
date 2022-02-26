@@ -1,5 +1,4 @@
 const mineflayer = require("mineflayer");
-const antiafk = require("mineflayer-antiafk");
 
 var options = {
     host: "94.130.53.134", 
