@@ -2,7 +2,7 @@ const mineflayer = require("mineflayer");
 const antiafk = require("mineflayer-antiafk");
 
 var options = {
-    host: "176.9.32.52", 
+    host: "94.130.53.134", 
     port: 38620,
     keepAlive: true,
     checkTimeoutInterval: 15*1000,
